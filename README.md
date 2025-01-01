@@ -43,19 +43,3 @@ This section provides detailed mathematical explanations for the neural network 
   <li>Forward Propogation:</li>
   Forward propagation calculates the output of the network for a given input
   <ul><li>A simple architecture with one hidden layer, using ReLU activation for non-linearity and softmax activation for multi-class classification.</li></ul>
-
-  <li>From Scratch Implementation:</li>
-  <ul><li>Core functions such as forward propagation, backward propagation, and gradient descent are implemented step-by-step to deepen conceptual understanding.</li></ul>
-
-  <li>Efficient Data Preprocessing:</li>
-  <ul><li>Reads data directly from CSV files, normalizes inputs to the range [0, 1], and splits the dataset into training and development sets.</li></ul>
-
-  <li>Modular Code:</li>
-  <ul><li>Functions are modular, making it easy to modify the network architecture, activation functions, or optimization techniques.</li></ul>
-
-  <li>Metrics and Performance Evaluation:</li>
-  <ul><li>Includes utility functions for calculating accuracy and predictions, along with regular performance updates during training.</li></ul>
-
-  <li>Beginner-Friendly Explanations:</li>
-  <ul><li>The code is annotated with comments and supplemented by markdown cells in the notebook to explain each concept in detail.</li></ul>
-</ol>
