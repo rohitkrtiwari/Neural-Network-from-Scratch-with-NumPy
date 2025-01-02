@@ -50,7 +50,7 @@ This section provides detailed mathematical explanations for the neural network 
   <li><b>Forward Propogation:</b></li>
   Forward propagation calculates the output of the network for a given input
   <ul><li><b>Hiddent Layers:</b> Z1 = W1.X + b1 </li>
-      A1 = ReLU(Z1) <br>
+      A1 = <a href="https://www.kaggle.com/code/dansbecker/rectified-linear-units-relu-in-deep-learning">ReLU(Z1)</a> <br>
       Here:
       <ul>
         <li>Z1: Weighted sum of inputs</li>
@@ -58,9 +58,14 @@ This section provides detailed mathematical explanations for the neural network 
         ReLU(z) = max(0, z)
       </ul>
       <li><b>Output Layer: </b>Z2 = W2.A1 + b2</li>
-      A2 = softmax(Z2)
-      The softmax function ensures output sum to 1, replresenting probabilities:
-      <center> <img src=""> </center>
-</center>
+      A2 = <a href = "https://www.singlestore.com/blog/a-guide-to-softmax-activation-function/">softmax(z2)</a>  <br>
   </ul>
+    
+  <br>
+  <li><b>Loss Function: </b></li>
+  The corss-entropy loss is used to quantify the difference between predicted probabilities and true labels:
   
+  <ul>
+    
+  </ul>
+      
